@@ -24,11 +24,12 @@ print_hi('Tom')
 {% endhighlight %}
 
 2、本地预览博客效果
-	 i、打开终端，打开博客路径 cd (博客存放的路径)   我的是 cd /Users/Ch****u/blog 
-	ii、启动jekyll 服务  bundle exec jekyll serve
+i、打开终端，打开博客路径 cd (博客存放的路径)   我的是 cd /Users/Ch****u/blog 
+
+ii、启动jekyll 服务  bundle exec jekyll serve
 
 	tip:可能遇到权限问题，加sudo即可
-更多详情请查看[jekyll中文网][jekyll中文网]
+更多详情请查看[jekyll-中文网][jekyll-中文网]
 
 
 请查阅 [Jekyll 文档][jekyll-docs] 获取更多关于Jekyll的信息. 在 [Jekyll’s GitHub repo][jekyll-gh]提交错误日志. 更多问题,请在 [Jekyll Talk][jekyll-talk]提问.
@@ -36,4 +37,4 @@ print_hi('Tom')
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
-[jekyll中文网]: https://www.jekyll.com.cn/
+[jekyll-中文网]: https://www.jekyll.com.cn/
