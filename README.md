@@ -1,4 +1,4 @@
-# zoharyip.club
+# prettyant.club
 
 ## Usage
 
@@ -26,4 +26,4 @@ Record what I learn & what I think
 
 ## Doc
 
-[Here is the doc of this site.](https://zoharyips.github.io/doc)
+[Here is the doc of this site.](https://prettyant.github.io/doc)

@@ -18,4 +18,4 @@ script:
   - echo Hello Travis
 
 after_success:
-- ssh ${SERVER_USER}@${SERVER_HOST} -o StrictHostKeyChecking=no 'cd ~/.www/zoharyips.github.io && git pull'
+- ssh ${SERVER_USER}@${SERVER_HOST} -o StrictHostKeyChecking=no 'cd ~/.www/prettyant.github.io && git pull'
