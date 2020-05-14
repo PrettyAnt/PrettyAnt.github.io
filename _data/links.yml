@@ -13,7 +13,6 @@
   name: 廖雪峰
   url: https://www.liaoxuefeng.com/
   type: blog
-  
 -
   name: 本站文档
   url: /doc/
@@ -76,12 +75,12 @@
   -
   name: 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Cloud、Spring Security & Spring Security OAuth2，博客Spring系列源码
   url: https://github.com/wuyouzhuguli/SpringAll
-  type: github
+  type: blog
 
   -
   name: 腾讯QMUI
   url: https://github.com/QMUI
-  type: github
+  type: blog
 
   -
   name: QMUI官网
@@ -91,4 +90,4 @@
   -
   name: 微信查看图片放大、缩小、下一张效果 
   url: https://github.com/yangchong211
-  type: github
+  type: blog
