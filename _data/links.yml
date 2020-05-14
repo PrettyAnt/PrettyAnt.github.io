@@ -10,6 +10,26 @@
   type: blog
 
 -
+  name: 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Cloud、Spring Security & Spring Security OAuth2，博客Spring系列源码
+  url: https://github.com/wuyouzhuguli/SpringAll
+  type: blog
+
+-
+  name: 腾讯QMUI
+  url: https://github.com/QMUI
+  type: blog
+
+-
+  name: QMUI官网
+  url: http://qmuiteam.com/android
+  type: blog
+
+-
+  name: 微信查看图片放大、缩小、下一张效果 
+  url: https://github.com/yangchong211
+  type: blog
+
+-
   name: 廖雪峰
   url: https://www.liaoxuefeng.com/
   type: blog
@@ -72,22 +92,4 @@
   name: 中科大开源镜像
   url: http://mirrors.ustc.edu.cn/
   type: download
-  -
-  name: 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Cloud、Spring Security & Spring Security OAuth2，博客Spring系列源码
-  url: https://github.com/wuyouzhuguli/SpringAll
-  type: blog
 
-  -
-  name: 腾讯QMUI
-  url: https://github.com/QMUI
-  type: blog
-
-  -
-  name: QMUI官网
-  url: http://qmuiteam.com/android
-  type: blog
-
-  -
-  name: 微信查看图片放大、缩小、下一张效果 
-  url: https://github.com/yangchong211
-  type: blog
