@@ -13,7 +13,7 @@ vim 并没有自带的插件管理模块, 所有插件散乱地散布在 `.vim` 
 * TOC
 {:toc}
 
-![个人 vim 使用界面](https://zoharyips.github.io/images/posts/my_vim_workspace.png)
+![个人 vim 使用界面](https://prettyant.github.io/images/posts/my_vim_workspace.png)
 
 ## Vundle 是什么
 
@@ -121,7 +121,7 @@ call vundle#end()
 " in most cases, some settings will reset other settings     "
 " if you notice that some options doesn't work, please check "
 " using ':help ordername'                                    "
-"         zohar Yip @ https://zoharyips.github.io            "
+"         zohar Yip @ https://prettyant.github.io            "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  
  

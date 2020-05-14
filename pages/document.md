@@ -22,8 +22,8 @@ permalink: /doc/
 ## Filesystem hierarchy
 
 ```bash
-$ tree zoharyips.github.io -L 2
-zoharyips.github.io
+$ tree prettyant.github.io -L 2
+prettyant.github.io
 ├── _data
 │   ├── links.yml
 │   ├── skills.yml

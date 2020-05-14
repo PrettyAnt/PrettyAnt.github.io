@@ -1,25 +1,8 @@
 -
-  name: Software Engineer
+  name: 技能
   keywords:
-    - Java
-    - Go
-    - C/C++
+    - Android *****
+    - Java ***
+    - JavaScrip *
+    - python *
 
--
-  name: Web Developer
-  keywords:
-    - JavaScript
-    - Php
-    - JQuery
-
--
-  name: Mobile Developer
-  keywords:
-    - Android
-    - Wechat
-
--
-  name: Operations Engineer
-  keywords:
-    - CentOS
-    - Ubuntu

@@ -1,5 +1,5 @@
 // 参考：https://github.com/sunshine940326/canvas-nest
-// 修改：https://github.com/zoharyips/zoharyips.github.io
+// 修改：https://github.com/prettyant/prettyant.github.io
 class Circle {
   //创建对象
   //以一个圆为对象

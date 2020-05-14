@@ -92,7 +92,7 @@ sudo gem install jekyll
 
 ```bash
 git clone ....
-cd zoharyips.github.io
+cd prettyant.github.io
 ```
 
 或者新建一个工程

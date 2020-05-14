@@ -1,7 +1,7 @@
 {% if page.repositories != false %}
   <link rel="stylesheet" href="/assets/css/components/repo-card.css"/>
   <!-- 仓库展示 -->
-  <h3>My Popular Repositories</h3>
+  <h3>我的Github项目</h3>
   {% if site.github.public_repositories != null %}
     {% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
     {% for repo in repos | limit: site.side_bar_repo_limit %}

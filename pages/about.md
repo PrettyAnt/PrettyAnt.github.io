@@ -10,7 +10,7 @@ permalink: /about/
 ---
 
 <div>
-  <h3>Contact me</h3>
+  <h3>我的联系方式</h3>
   <ul style="line-height: 3rem;list-style-type: none;">
     {% for obj in site.data.social %}
     <li>
@@ -19,7 +19,7 @@ permalink: /about/
     </li>
     {% endfor %}
   </ul>
-  <h3>Abilities</h3>
+  <h3>about me</h3>
   <ul style="list-style-type: none;">
     {% for skill in site.data.skills %}
       <li>
