@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Categories
-description: 哈哈，你找到了我的文章基因库。
+description: 坐稳了,老司机要发车了
 keywords: 分类
 comments: false
 share: false

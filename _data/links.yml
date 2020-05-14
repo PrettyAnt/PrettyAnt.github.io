@@ -61,34 +61,11 @@
   name: 在线 API 测试
   url: http://coolaf.com/
   type: tool
-
--
-  name: BootCDN
-  url: https://www.bootcdn.cn/
-  type: download
-
--
-  name: 第八基地
-  url: http://doc.d8jd.com/
-  type: download
   
 -
   name: 阿里 maven 仓库
   url: https://maven.aliyun.com/mvn/view
   type: download
 
--
-  name: Android SDK 镜像服务器
-  url: http://tools.android-studio.org/index.php/proxy
-  type: download
-  
--
-  name: Linux 中科大软件源
-  url: https://mirrors.ustc.edu.cn/repogen/
-  type: download
-  
--
-  name: 中科大开源镜像
-  url: http://mirrors.ustc.edu.cn/
-  type: download
+
 
