@@ -19,7 +19,7 @@ permalink: /about/
     </li>
     {% endfor %}
   </ul>
-  <h3>about me</h3>
+  <h3>About me</h3>
   <ul style="list-style-type: none;">
     {% for skill in site.data.skills %}
       <li>
