@@ -2,7 +2,8 @@
   sitename: Github
   name: "&emsp;prettyant"
   url: https://github.com/prettyant
-  svg: /assets/svg/github.svg
+  # svg: /assets/svg/github.svg
+  svg: /images/github.png
   title: My github account
   # src: "/images/wechat-transparency.png" 
 
