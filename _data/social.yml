@@ -10,6 +10,7 @@
   sitename: Wechat
   name: "&emsp;CoderKing"
   # url: https://user.qzone.qq.com/2693356590
+  url: /images/wechat.png
   svg: /images/wechat.png
   title: Contact me on wechat
 
@@ -22,7 +23,7 @@
 
 -
   sitename: Blog
-  name: "&emsp;&emsp;zohar's blog"
+  name: "&emsp;&emsp;PrettyAnt's blog"
   url: https://prettyant.github.io
   svg: /assets/svg/website.svg
   title: This is this blog

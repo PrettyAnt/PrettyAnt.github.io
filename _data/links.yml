@@ -18,16 +18,15 @@
   name: 腾讯QMUI
   url: https://github.com/QMUI
   type: github
+-
+  name: 微信查看图片放大、缩小、下一张效果 
+  url: https://github.com/yangchong211
+  type: github
 
 -
   name: QMUI官网
   url: http://qmuiteam.com/android
   type: blog
-
--
-  name: 微信查看图片放大、缩小、下一张效果 
-  url: https://github.com/yangchong211
-  type: github
 
 -
   name: 廖雪峰
