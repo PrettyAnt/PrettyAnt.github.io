@@ -7,17 +7,17 @@
 -
   name: android blog汇总
   url: https://github.com/yangchong211/YCBlogs/blob/master/blog/02.Android博客大汇总.md
-  type: blog
+  type: github
 
 -
   name: 循序渐进，学习Spring Boot、Spring Boot & Shiro、Spring Cloud、Spring Security & Spring Security OAuth2，博客Spring系列源码
   url: https://github.com/wuyouzhuguli/SpringAll
-  type: blog
+  type: github
 
 -
   name: 腾讯QMUI
   url: https://github.com/QMUI
-  type: blog
+  type: github
 
 -
   name: QMUI官网
@@ -27,7 +27,7 @@
 -
   name: 微信查看图片放大、缩小、下一张效果 
   url: https://github.com/yangchong211
-  type: blog
+  type: github
 
 -
   name: 廖雪峰
