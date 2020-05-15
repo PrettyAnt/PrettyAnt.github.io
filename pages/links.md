@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-description: 没有链接的博客是孤独的
+description: 条条大路通罗马~ 来吧！宝贝！这里总有你想要的~
 comments: false
 canvas: true
 menu: 链接

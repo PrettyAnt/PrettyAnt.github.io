@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Wiki
-description: 人越学越觉得自己无知，这里存放了许多琐碎的知识点，食之无味弃之可惜
+description: 如果你不觉得一年前的自己是个蠢货，那么说明你这一年没什么进步
 menu: 维基
 repositories: false
 share: false
