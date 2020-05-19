@@ -21,7 +21,7 @@ canvas: true
         <span class="meta-info mobile-hidden">
           <span class="octicon octicon-location"></span>
           {{ site.location }}
-          {"@author"{ site.author }}
+
         </span>
         {% if site.organization %}
           <span class="meta-info">
@@ -29,10 +29,10 @@ canvas: true
             <a href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
           </span>
         {% endif %}
-        <!-- <span class="meta-info">
+        <span class="meta-info">
           <span class="octicon octicon-mark-github"></span>
-          <a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username }}</a>
-        </span> -->
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">{{ site.github_username,(site.author) }}</a>
+        </span>
       </div>
     </div>
   </div>
