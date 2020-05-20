@@ -25,6 +25,8 @@ github_username     : PrettyAnt
 location            : ShangHai, China
 email               : 981214993@qq.com
 
+organization        : 上海理想信息产业有限公司
+organization_url    : http://www.ideal.sh.cn/public/idealout/index.htm
 markdown            : kramdown
 kramdown:
   input             : GFM
