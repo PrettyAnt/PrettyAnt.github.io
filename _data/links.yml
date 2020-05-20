@@ -27,6 +27,10 @@
   name: QMUI官网
   url: http://qmuiteam.com/android
   type: blog
+-
+  name: jekyll文档
+  url: http://jekyllcn.com/
+  type: blog
 
 -
   name: 廖雪峰
