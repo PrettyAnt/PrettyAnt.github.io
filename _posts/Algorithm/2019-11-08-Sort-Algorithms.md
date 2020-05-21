@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 各大排序算法的比较、研究与实现
-categories: Algorithm
+categories: 算法
 keywords: Algorithm
 mathjax: true
 prism: [java]
