@@ -51,13 +51,20 @@ git merge --no-ff -m "..." 加上参数 --no-ff就可以看到曾经做过的合
     修复bug时，我们会通过创建bug分支进行修复，然后合并，最后删除；当手头上的工作没有完成时，先保存工作场git stash，
     然后切换到bug分支去修复bug,修复完毕后再将修复后的代码合并到主分支上，记下当前提交修复bug的id如:4c805e2，
     接着切换到主分支再删除bug分支。然后再切换到工作分支，git stash pop,恢复工作场；在master分支上修复的bug,想要合并到当前的分支，可以用git cherry-pick 4c805e2命令，把bug提交到主分支上的修改“复制"到当前的分支上。
-git stash 将当前的工作场储存起来。比如临时需要修改主分支上的bug,但是当前分支的需求需要很久做完以至于不能提交当前分支的代码，需要存储起来
-git stash list 列出工作场 如：stash@{0}:WIP on dev :f52c... add merge
-git stash apply stash@{0} 恢复工作场的指定位置的内容
-git stash drop stash@{0}  删除工作场的指定位置的内容
-git stash pop 恢复工作场并删除工作场的内容
-git cherry-pick 4c805e2 合并到当前分支。
-git branch -D <name> 删除该分支。该分支已经add并提交，还未合并到当前分支  
+    
+* git stash 将当前的工作场储存起来。比如临时需要修改主分支上的bug,但是当前分支的需求需要很久做完以至于不能提交当前分支的代码，需要存储起来
+
+* git stash list 列出工作场 如：stash@{0}:WIP on dev :f52c... add merge
+
+* git stash apply stash@{0} 恢复工作场的指定位置的内容
+
+* git stash drop stash@{0}  删除工作场的指定位置的内容
+
+* git stash pop 恢复工作场并删除工作场的内容
+
+* git cherry-pick 4c805e2 合并到当前分支。
+
+* git branch -D <name> 删除该分支。该分支已经add并提交，还未合并到当前分支  
 
 ## 远程仓库 
     
