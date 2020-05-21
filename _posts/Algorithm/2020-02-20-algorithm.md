@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 置顶 - 算法导航
-categories: 算法
+categories: 数据结构&算法
 keywords: Algorithm
 permalink: /Algorithms/
 ---
