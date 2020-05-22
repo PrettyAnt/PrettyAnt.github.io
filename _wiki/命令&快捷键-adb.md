@@ -1,161 +1,142 @@
 ---
 layout: wiki
-title: androidstudio常用快捷键
+title: adb常用命令
 description:  不积跬步,无以至千里;不积小流,无以成江海
 date: 2019-12-19
-categories: AndroidStudio
-prism: [androidstudio]
+categories: 命令&快捷键
+prism: [adb]
 ---
 
+获取序列号：
 
-功能描述	keymap对应名字	Mac	Win/Linux
-提示错误解决方案	Show Intention Actions	option + enter	alt + enter
-AS配置界面	Preferences	command + ,	control+alt+S
-工程项目配置界面	Project Structure	command + ;	Control＋Alt+Shift+S
-快速构成代码	Code Generate	command + N	alt + insert
-代码提示	Completion/Basic	control + space(mac会冲突, 手动修改)	ctrl + 空格(win同样大部分和输入法冲突, 手动修改)
-选择视图	select in any view	option + F1	alt + F1
-添加书签标识	Toggle Bookmark	option + F3	ctrl + F11
-向下移动一行	Move Line Down	option + shift + Down	alt + shift + Down
-向上移动一行	Move Line Up	option + shift + Up	alt + shift + Up
-注释代码	Comment with Line Comment	command + /	ctrl + /
-用代码模板包裹代码	surround with Live Template	command + option + J	ctrl + alt + J
-格式化代码	Reformat Code	command + option + L	ctrl + alt + L
-Copy Reference	Copy Reference	command + option + shift + C	ctrl + alt + shift + C
-if/try等包裹代码	Surround With..	command + option + T	ctrl + alt + T
-查看声明	Declaration	command + B	ctrl + B
-快捷向下复制行	Duplicate Line or Block	command + D	ctrl + D
-删除行	Delete Line	command + delete	ctrl + Y
-快捷最近打开	Recent Files	command + E	ctrl + E
-查找	Edit/Find/Find	command + F	ctrl + F
-文件方法结构	File Structure	command + F12	ctrl + F12
-显示书签	Show Bookmarks	command + F3	shift + F11
-代码高亮向下查找	Move To Next Occurrence	command + G	F3
-代码高亮向上查找	Move To Previous Occurrence	command + shift + G	shift + F3
-按照模板生成代码	Insert Live Template	command + J	ctrl + J
-定位到行	Navigate/Line	command + L	ctrl + G
-快速到行首/尾	Move Caret to Line Start/End	command + Left/Right	ctrl + Left/Right
-代码折叠/展开	Collapse/Expand	command + 减号/加号	ctrl + 减号/加号
-查找类	Navigate/Class	command + O	ctrl + N
-多行注释	Code/Comment	command + option + /	ctrl + alt + /
-格式化代码	Reformat Code	command + option + L	ctrl + alt + L
-提示参数类型	Parameter Info	command + P	ctrl + P
-查找替换	Replace	command + R	ctrl + R
-查找命令	Find Action	command + shift + A	ctrl + shift + A
-拷贝文件路径	Copy Paths	command + shift + C	ctrl + shift + C
-移动代码块	Move Statement Up/Down	command + shift + down/up	ctrl + shift + down/up
-代码补全	Complete Current Statement	command + shift + enter	ctrl + shift + enter
-全路径查找	Find in Path	command + shift + F	ctrl + shift + F
-代码高亮	Highlight Usages in File	command + shift + F7	alt + J
-窗口内所有代码折叠/展开	Collapse/Expand All	command + shift + 减号/加号	ctrl + shift + 减号/加号
-查找文件	Navigate/File	command + shift + O	ctrl + shift + N
-全路径中替换	Replace in Path	command + shift + R	ctrl + shift + R
-大小写转换	Toggle Case	command + shift + U	ctrl + shift + U
-显示粘贴版历史	Paste from History	command + shift + V	ctrl + shift + V
-快速查找定义	 	command + space	ctrl + shift + I
-粘贴	Paste	command + V	ctrl + V
-复制	Copy	command + C	ctrl + C
-去除无效包引用	Optimize Imports	control + option + O	ctrl + alt + O
-显示类关系继承体系	Type Hierarchy	control + H	ctrl + H
-快速覆写方法	override Methods	control + O	ctrl + O
-查找调用的位置	Call hierarchy	control + option + H	ctrl + alt + H
-添加书签	Toggle Bookmark	F3	F11
-扩大缩小选中范围	Extend Selection/Shrink Selection	option + UP/Down	ctrl + W + shift + W
-跳转到父类	Super method	command + U	ctrl + U
-关闭当前tab标签	Editor Tabs / Close	command + W	ctrl + shift + a
-关闭除编辑窗口的其余窗口	Hide All Tool Windows	command + shift + F12	ctrl + shift + F12
-预览方法定义	Quick Definition	command + Y	ctrl + shift + I
-返回光标最后编辑位置	Last Edit Location	command + shift + delete	control + shift + Backspace
-调到代码块首部/尾部	Move Caret To Code Block	Option + Command + [ 或者 ]	Control+[ 或者 ]
-重命名	Rename	shift + F6	shift + F6
-抽取方法	Extract Method	command + option + M	control+alt+M
-抽取变量	Extract Variable	command + option + V	control+alt+V
-抽取字段	Extract Field	command + option + F	control+alt+F
-抽取常量	Extract Constant	command + option + C	control+alt+C
-抽取参数	Extract Parameter	command + option + P	control+alt+P
-重构入口	Refactor This	control + T	ctrl + alt + shift + T
+adb get-serialno 
+查看连接计算机的设备：
 
-最近操作
-Command +E（mac）    
-Ctrl +E   (win)
+adb devices 
+重启机器：
 
-最近修改
-Command +Shift +E  （mac）
-Ctrl +shift +enter (win)
+adb reboot 
+重启到bootloader，即刷机模式：
 
-文件查找
-Command +o (mac)
-Ctrl +n （win）
+adb reboot bootloader 
+重启到recovery，即恢复模式：
 
-比上边的那个级别更高 查找
-Command +shift+ o(mac)
-Ctrl +shift +n (win)
+adb reboot recovery 
+查看log：
 
-操作记录
-Command +option +Left\Right    (mac)
-Command +[   \ ]
+adb logcat 
+终止adb服务进程：
 
-Ctrl +alt     +左右键(win)  
+adb kill-server 
+重启adb服务进程：
 
+adb start-server 
+获取机器MAC地址：
 
-移动行 
-option+shift +  方向键上\下（mac）
-Alt +shift + 方向键 上\下(win)
+adb shell cat /sys/class/net/wlan0/address 
+获取CPU序列号：
 
-查找方法的调用处
-option+F7   (mac)
-Alt +F7   (win)
+adb shell cat /proc/cpuinfo 
+安装APK：
 
-方法的跟进
-Command +B  （mac）
-Ctrl +alt +B (win)
+adb install //比如：adb install baidu.apk 
+保留数据和缓存文件，重新安装apk：
 
+adb install -r //比如：adb install -r baidu.apk 
+安装apk到sd卡：
 
+adb install -s // 比如：adb install -s baidu.apk 
+卸载APK：
 
-显示方法的参数：
-command+p (mac)
-Ctrl +p    (win)
+adb uninstall //比如：adb uninstall com.baidu.search 
+卸载app但保留数据和缓存文件：
 
-行的快速操作：
-快速删除行  command +X  (Mac)
-快速复制行  Command +D （Mac）
-                    Ctrl D （win）
+adb uninstall -k //比如：adb uninstall -k com.baidu.search 
+启动应用：
 
+adb shell am start -n /. 
+查看设备cpu和内存占用情况：
 
-多行操作
-按住 option    然后拖住鼠标
-Win 中是  alt
+adb shell top 
+查看占用内存前6的app：
 
+adb shell top -m 6 
+刷新一次内存信息，然后返回：
 
-快速补全
-Command +shift +enter  (mac)
-Ctrl +shift +enter  (win)
+adb shell top -n 1 
+查询各进程内存使用情况：
 
+adb shell procrank 
+杀死一个进程：
 
-快速 生成变量
-Option +enter (mac)
-Alt +enter (win)
+adb shell kill [pid] 
+查看进程列表：
 
+adb shell ps 
+查看指定进程状态：
 
+adb shell ps -x [PID] 
+查看后台services信息：
 
-代码的折叠
+adb shell service list 
+查看当前内存占用：
 
-Command +  加号和减号 （mac）
-Ctrl + 加号和减号
+adb shell cat /proc/meminfo 
+查看IO内存分区：
 
+adb shell cat /proc/iomem 
+将system分区重新挂载为可读写分区：
 
-预览方法的定义
-command +Y  (mac)
-Ctrl +shift +I   (win )
+adb remount 
+从本地复制文件到设备：
 
+adb push 
+从设备复制文件到本地：
 
-抽取方法 
-Command +option +M 
-Ctrl +alt +M
+adb pull 
+列出目录下的文件和文件夹，等同于dos中的dir命令：
 
-重构入口
-Ctrl +T 
+adb shell ls 
+进入文件夹，等同于dos中的cd 命令：
 
-Ctrl +alt +shift  +T
+adb shell cd 
+重命名文件：
 
+adb shell rename path/oldfilename path/newfilename 
+删除system/avi.apk：
+
+adb shell rm /system/avi.apk 
+删除文件夹及其下面所有文件：
+
+adb shell rm -r 
+移动文件：
+
+adb shell mv path/file newpath/file 
+设置文件权限：
+
+adb shell chmod 777 /system/fonts/DroidSansFallback.ttf 
+新建文件夹：
+
+adb shell mkdir path/foldelname 
+查看文件内容：
+
+adb shell cat 
+查看wifi密码：
+
+adb shell cat /data/misc/wifi/*.conf 
+清除log缓存：
+
+adb logcat -c 
+查看bug报告：
+
+adb bugreport 
+获取设备名称：
+
+adb shell cat /system/build.prop 
+查看ADB帮助：
+
+adb help 
+跑monkey：
+
+adb shell monkey -v -p your.package.name 500
 
