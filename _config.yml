@@ -9,10 +9,10 @@
 baseurl:
 # It will redirect your site to this url
 url                 : https://www.prettyant.com/
-title               : PrettyAnt's blog
+title               : 陈宇的个人博客
 name                : PrettyAnt's blog
 subtitle            : "U are never too old to learn"
-description         : "The personal blog of PrettyAnt, a ascetic on the road to programming."
+description         : "The personal blog of PrettyAnt."
 repository          : PrettyAnt/PrettyAnt.github.io
 keywords            : PrettyAnt, CoderKing, PrettyAnt' Blog, 陈宇,小宇哥
 date_format         : "ordinal"
