@@ -1,4 +1,4 @@
-# prettyant.club
+# prettyant.com
 
 ## Usage
 

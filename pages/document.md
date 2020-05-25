@@ -17,7 +17,7 @@ permalink: /doc/
 
 {% raw %}
 
-# zoharyip.club
+# prettyant.com
 
 ## Filesystem hierarchy
 
