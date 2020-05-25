@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="/assets/css/components/repo-card.css"/>
   <!-- 仓库展示 -->
   <h3>我的Github部分项目</h3>
-  {% if site.github.public_repositories != null %}
+  <!-- {% if site.github.public_repositories != null %}
     {% assign repos = site.github.public_repositories | sort: "stargazers_count" | reverse%}
     {% for repo in repos | limit: site.side_bar_repo_limit %}
       <a href="{{ repo.html_url }}" target="_blank" class="card text-center">
@@ -34,5 +34,5 @@
         </div>
       </a>
     {% endfor %}
-  {% endif %}
+  {% endif %} -->
 {% endif %}
