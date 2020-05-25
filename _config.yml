@@ -9,8 +9,8 @@
 baseurl:
 # It will redirect your site to this url
 url                 : https://www.prettyant.com/
-title               : 陈宇的个人博客
-name                : PrettyAnt's blog
+title               : PrettyAnt's blog
+name                : 陈宇
 subtitle            : "U are never too old to learn"
 description         : "The personal blog of PrettyAnt."
 repository          : PrettyAnt/PrettyAnt.github.io
