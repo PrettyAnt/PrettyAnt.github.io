@@ -18,7 +18,7 @@ keywords            : PrettyAnt, CoderKing, PrettyAnt' Blog, 陈宇,小宇哥
 date_format         : "ordinal"
 timezone            : Asia/Shanghai
 encoding            : "utf-8"
-side_bar_repo_limit : 3
+side_bar_repo_limit : 5
 
 author              : 陈宇
 github_username     : PrettyAnt
