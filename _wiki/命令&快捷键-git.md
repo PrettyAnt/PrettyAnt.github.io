@@ -129,48 +129,40 @@ d、git commit -m"..."
 
 然后在切换到合并的分支，git merge <被合并的分支>
 
-## git打tag标签
+# git打tag标签
 
-### 列出tag
+## 列出tag
 
 a、git tag 列出已有的tag
 
 b、git tag  -l "v1.1*" 加上-l 命令可以使用通配符来过滤tag
 
-### 新建tag
+## 新建tag
 
 * git tag v1.0直接新建tag   或者 git tag -a <tagName> -m"tag描述信息" 创建带备注的tag
 
-### 给指定的历史log打tag
+## 给指定的历史log打tag
 
 * git tag -a v1.2 9fcb02 -m "备注信息"
 
-### 查看tag的详情信息
+## 查看tag的详情信息
 
 * git show 
 
 * git show v1.2 查看指定tag的信息、备注
 
-### 将tag同步到远程服务器
+## 将tag同步到远程服务器
 
 * git push origin <tagName> 推送单个tag
 
 * git push origin --tags 推送本地所有tag
 
-### 切换到某个tag
+## 切换到某个tag
 
 * git checkout v1.1 跟分支一样，可以直接切换到某个tag上去，这时候不位于任何分支，处于游离状态，可以考虑基于这个tag创建一个分支
 
-### 删除某个tag
+## 删除某个tag
 
 * git tag -d v1.1 删除本地tag
 
 * git push origin :refs/tags/<tagName>删除远程tag
-
-
-
-
-
-
-
-
