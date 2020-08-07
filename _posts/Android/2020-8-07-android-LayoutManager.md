@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  TableLayout
+title:  LayoutManager
 categories: Android
 keywords: Android
 mathjax: true
