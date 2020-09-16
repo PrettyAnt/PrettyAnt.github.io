@@ -43,4 +43,8 @@ repositories {
 * debugCompile（debugImplementation）只参与debug模式的编译和最终的debug apk打包
 * releaseCompile（releaseImplementation） 只参与release模式的编译和最终的Release apk打包
 
+##  AATP 属性资源的问题
+场景 : 引入aar包时，报AATP错误
+* 在外层的build.gradle的文件中确定classpath的版本是否一致
+
 
